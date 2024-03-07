@@ -9,11 +9,13 @@ The paper addresses fundamental questions related to the convergence process of 
 
 ## Content
 
-- `train-model.ipynb`: The notebook containing preparation steps for experiments. 
-- `sampling.ipynb`: The notebook containing experiments. 
-- `tmp/`: Directory containing result tables of experiments. 
+- `load_cifar_script.py`: The Python script of data loading. 
+- `train-model.ipynb`: The Jupyter notebook containing preparation steps for experiments. 
+- `sampling.ipynb`: The Jupyter notebook containing experiments. 
+- `tmp/`: Directory containing the result of experiments. 
+- `paper.pdf`: PDF file of the paper content. 
 
 ## Reproduction
 
-- Step 1: Run `train-model.ipynb` for datasets and model preparation. 
+- Step 1: Run `train-model.ipynb` for dataset spliting and model preparation. 
 - Step 2: Run `sampling.ipynb` for reproducting two experiments in the paper. 
